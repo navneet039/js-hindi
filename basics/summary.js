@@ -37,3 +37,29 @@ console.log(typeof heros)
 console.log(typeof id)
 
 
+// ****************** stack(primitive type)and heap(non-primitive)
+
+//jb v memory stack me define hoti hai tb uski copy milti hai
+//aur heap se orignal milta hai reference  jo v change hoga orinal me change hoga
+
+let myUtubeName="hiteshchoudharydotcom"
+
+let anothername=myUtubeName
+// --->copy k andr change hua
+anothername="chaiaurcode"
+console.log(anothername)
+console.log(myUtubeName)
+
+let userone={
+    email:"user@google.com",
+    upi:"user@ybl"
+
+}
+let usertwo=userone
+//not a copy same  by reference
+usertwo.email="navneet@google.com"
+
+console.log(userone.email)
+console.log(usertwo.email)
+
+
