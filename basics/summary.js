@@ -36,3 +36,4 @@ console.log(typeof undefined)
 console.log(typeof heros)
 console.log(typeof id)
 
+
