@@ -6,7 +6,7 @@ const repocount=40
 // -->string interpolation
 console.log(`Hello my name is ${name} and my repocount is ${repocount}.`)
 
-const gameName=new String("dbsh-sv-bsb")
+
 
 console.log(gameName[0])
 console.log(gameName.__proto__)

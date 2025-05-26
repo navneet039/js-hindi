@@ -1,5 +1,9 @@
-//singleton--->constructor se bnate hai to --->matlab ye apne type ka ek single object hai
-//literal  literals ---> se singleton nhi bnta hai
+// Singleton: If created using a constructor (like new Object()), 
+// we can control it to be a singleton — a single instance.
+
+// Literal: When using object literals ({ }), it is NOT a singleton. 
+// Each time you write {}, it creates a new object.
+
 
 
 //Object.create--->constructor
